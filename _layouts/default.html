@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="site">
+<head prefix="og: http://ogp.me/ns# profile: http://ogp.me/ns/profile#">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.data.general.site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="msapplication-navbutton-color" content="#000000">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+  <link rel="icon" sizes="192x192" href="img/big_icon.png">
+
+  <link rel="canonical" href="http://meh.get-it.us{{ page.url | replace:'index.html','' }}">
+
+  <meta property="og:title" content="Patrick Sy"/>
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:description" content="{{ site.data.general.site.description }}">
+  <meta property="og:url" content="http://patricksy.de"/>
+  <meta property="og:image" content="http://patricksy.de/img/psy_the_face_200.jpg"/>
+  <meta property="og:image:type" content="image/jpeg"/>
+  <meta property="og:image:width" content="2048"/>
+  <meta property="og:image:height" content="880"/>
+
+  <meta property="profile:first_name" content="Patrick">
+  <meta property="profile:last_name" content="Sy">
+  <meta property="profile:gender" content="male">
+
+  <title>{{ site.data.general.site.title }} || {{ page.title }}</title>
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet">
+</head>
+<body>
+  <header></header>
+  <section id="main" class="container">
+    <div class="main-title">
+      <h1>{{ page.title}}</h1>
+    </div>
+
+    {% if page.titleImage %}
+      <div class="title-image">
+        <img src="{{ page.titleImage }}" alt="{{ page.titleImageAlt }}" />
+      </div>
+    {% endif %}
+
+    <div class="main-content">
+      {{ content }}
+    </div>
+  </section>
+
+  <footer></footer>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>

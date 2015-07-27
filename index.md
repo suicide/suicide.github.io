@@ -1,7 +1,13 @@
 ---
-title: meeeehhhwhen || everything is just meh…
+title: yo hi!
 
 ---
 
-Here is my page.
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
