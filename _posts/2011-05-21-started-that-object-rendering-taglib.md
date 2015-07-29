@@ -2,7 +2,7 @@
 title: Started that object rendering taglib
 layout: post
 titleImage: /assets/copy-pasta.jpg
-tags: [java, jsp, oo]
+tags: [java, jsp, oo, coremedia]
 ---
 
 So I started writing my own object oriented rendering JSP taglib as I could not find anything like that anywhere. 

@@ -2,7 +2,7 @@
 title: Object rendering JSP taglib
 layout: post
 titleImage: /assets/facebook-fan.jpg
-tags: [java, jsp, oo]
+tags: [java, jsp, oo, coremedia]
 ---
 
 As of now I am a super awesome CoreMedia developer! Well ok I am not quite there yet, but I attended the Web 

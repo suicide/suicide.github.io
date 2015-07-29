@@ -2,7 +2,7 @@
 title: Type Include Taglib
 layout: post
 titleImage: /assets/lonely-nerd.gif
-tags: [java, programming]
+tags: [java, oo, jsp, coremedia]
 ---
 
 So remember some time ago when I posted something about a tag lib that includes other JSPs be the type of the object 
