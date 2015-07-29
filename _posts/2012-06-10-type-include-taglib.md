@@ -1,7 +1,8 @@
 ---
 title: Type Include Taglib
-layout: default
+layout: post
 titleImage: /assets/lonely-nerd.gif
+tags: [java, programming]
 ---
 
 So remember some time ago when I posted something about a tag lib that includes other JSPs be the type of the object 

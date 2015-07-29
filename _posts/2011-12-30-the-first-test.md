@@ -1,7 +1,8 @@
 ---
 title: The first test
-layout: default
+layout: post
 titleImage: /assets/earth-mass.png
+tags: [java, programming, testing, selenium]
 ---
 
 So I wrote the first test… As I want to access the app using jmx later i used spring to setup my unit tests. meaning 

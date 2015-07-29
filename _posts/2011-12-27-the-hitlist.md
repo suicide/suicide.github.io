@@ -1,7 +1,8 @@
 ---
 title: The Hitlist
-layout: default
+layout: post
 titleImage: /assets/forever-alone.jpg
+tags: [java, programming]
 ---
 
 So in order to do the slenium jmx test thingy i talked about in the last post i needed to have some simple test app. 

@@ -1,7 +1,8 @@
 ---
 title: Workmeter - Track your working hours
-layout: default
+layout: post
 titleImage: /assets/workmeter.jpg
+tags: [workmeter, projects, symfony]
 ---
 
 Over the last year some friends and I had been working on a little project we called workmeter. 

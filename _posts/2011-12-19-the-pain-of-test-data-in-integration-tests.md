@@ -1,7 +1,8 @@
 ---
 title: The Pain of Test Data in Integration Tests
-layout: default
+layout: post
 titleImage: /assets/genius.jpg
+tags: [java, testing]
 ---
 
 So imagine you have some kind of a web app that you’d like to test using selenium or canoo webtest… well you better do 

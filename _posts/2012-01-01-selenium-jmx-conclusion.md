@@ -1,7 +1,8 @@
 ---
 title: Selenium + JMX Conclusion
-layout: default
+layout: post
 titleImage: /assets/blown.png
+tags: [java, programming, testing]
 ---
 
 So I kind of “finished”… well I just got bored with the topic :P you can see the results at [github](https://github.com/suicide/hitlist).

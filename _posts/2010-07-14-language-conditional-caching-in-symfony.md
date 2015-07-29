@@ -1,6 +1,7 @@
 ---
 title: Langauge conditional caching in symfony
-layout: default
+layout: post
+tags: [php, symfony, language]
 ---
 
 So I finally found a topic that was worth writing about: language conditional caching in symfony 1.4!

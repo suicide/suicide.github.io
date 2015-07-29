@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article class="post col-md-12">
+
+  {% if page.titleImage %}
+  <div class="title-image">
+    <a href="{{ page.titleImage }}">
+      <img src="{{ page.titleImage }}" alt="{{ page.titleImageAlt }}"/>
+    </a>
+  </div>
+  {% endif %}
+
+  {{ content }}
+</article>
+
+

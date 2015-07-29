@@ -1,7 +1,8 @@
 ---
 title: Solr, MS SQL Server and the damn date format
-layout: default
+layout: post
 titleImage: /assets/ffffuuuu-hang-nail-comic-rage-comic-hangnail.png
+tags: [programming, solr, sql server]
 ---
 
 So I thought I had a simple task at work for the last couple of days: get the delta import feature of Solr to work!
